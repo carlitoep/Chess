@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess</title>
+
+    <style>
+      #canvas {
+        background-color: black;
+      }
+    </style>
+    <script src="chess.js"></script>
+    <link rel="stylesheet" href="chess.css" />
+  </head>
+  <body onload="startGame()">
+    <canvas
+      id="canvas"
+      width="640"
+      height="640"
+      onmousedown="drawe(event)"
+    ></canvas>
+
+    <h2 class="a" id="m"></h2>
+
+    <div class="clock">
+      <button class="buttons" onclick="stop()"><span></span> NEW GAME</button>
+
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+      <script>
+        $(document).ready(function (e) {
+          $(".buttons").on("mouseenter", function (e) {
+            x = e.pageX - $(this).offset().left;
+            y = e.pageY - $(this).offset().top;
+            $(this).find("span").css({ top: y, left: x });
+          });
+          $(".buttons").on("mouseout", function (e) {
+            x = e.pageX - $(this).offset().left;
+            y = e.pageY - $(this).offset().top;
+            $(this).find("span").css({ top: y, left: x });
+          });
+        });
+      </script>
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+      <script>
+        $(document).ready(function (e) {
+          $(".buttons1").on("mouseenter", function (e) {
+            x = e.pageX - $(this).offset().left;
+            y = e.pageY - $(this).offset().top;
+            $(this).find("span").css({ top: y, left: x });
+          });
+          $(".buttons1").on("mouseout", function (e) {
+            x = e.pageX - $(this).offset().left;
+            y = e.pageY - $(this).offset().top;
+            $(this).find("span").css({ top: y, left: x });
+          });
+        });
+      </script>
+
+      <h2 class="a" id="mw"></h2>
+    </div>
+    <p id="win"></p>
+  </body>
+</html>

@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+   --border: #111;
+}
+
+body {
+    background-color: #111;
+    /*display: flex;
+    flex-direction: row;
+    align-items: center;*/
+  
+}
+canvas {
+    float:left;
+   
+}
+#m {
+
+    float:right;
+    margin-top: 112.5px;
+    margin-right: 900px;
+   
+    
+    
+    
+}
+
+#mw {
+   
+    float:right;
+    clear: right;
+    margin-right: 900px;
+    margin-top: 75px;
+    
+    
+}
+
+
+.a {
+    font-size: 100px;
+}
+.buttons {
+    float: right;
+    clear: right;
+    margin-right: 500px;
+    margin-top: 75px;
+  
+}
+.buttons {
+    background-color: #111;
+    position: relative;
+    padding: 10px 30px; 
+    border: 2px solid white;
+    
+    display: inline-block;
+    text-decoration: none;
+    color:gray;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+.buttons span {
+position: absolute;
+display: block;
+width: 0px;
+height: 0px;
+transform: translate(-50%,-50%);
+border-radius: 50%;
+
+
+transition: width 0.5s, height 0.5s;
+z-index: 1;
+
+}
+.buttons:hover {
+    color: white;
+}
+
+.buttons:hover span {
+   
+    width: 300px;
+    height: 300px;
+}
+.buttons1 {
+    background-color: #111;
+    position: relative;
+    padding: 10px 30px; 
+    border: 2px solid white;
+ 
+    display: inline-block;
+    text-decoration: none;
+    color:gray;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+.buttons1 span {
+position: absolute;
+display: block;
+width: 0px;
+height: 0px;
+transform: translate(-50%,-50%);
+border-radius: 50%;
+
+
+transition: width 0.5s, height 0.5s;
+z-index: 1;
+
+}
+.buttons1:hover {
+    color: white;
+}
+
+.buttons:hover span {
+   
+    width: 300px;
+    height: 300px;
+}
+#win {
+    float:left;
+    font-size: 45px;
+    color: white;
+    display: flex;
+    border: 2px solid var(--border);
+    /*box-shadow: 1px 1px 1px 1px white;*/
+    
+    margin-top: -240px;
+    padding: 10px;
+    margin-left: 50px;
+    
+    
+
+
+
+}
+/*
+canvas {
+    display: flex;
+    flex-direction: column;
+    /*margin-left: 619.5px;
+    margin-top: 145.5px;
+}
+h2 {
+    display: flex;
+    flex-direction: column;
+}
+.buttons {
+    background-color: #111;
+    position: relative;
+    padding: 10px 30px; 
+    border: 2px solid white;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color:gray;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+.buttons span {
+position: absolute;
+display: block;
+width: 0px;
+height: 0px;
+transform: translate(-50%,-50%);
+border-radius: 50%;
+
+
+transition: width 0.5s, height 0.5s;
+z-index: 1;
+
+}
+.buttons:hover {
+    color: white;
+}
+
+.buttons:hover span {
+   
+    width: 300px;
+    height: 300px;
+}
+.buttons1 {
+    background-color: #111;
+    position: relative;
+    padding: 10px 30px; 
+    border: 2px solid white;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color:gray;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+.buttons1 span {
+position: absolute;
+display: block;
+width: 0px;
+height: 0px;
+transform: translate(-50%,-50%);
+border-radius: 50%;
+
+
+transition: width 0.5s, height 0.5s;
+z-index: 1;
+
+}
+.buttons1:hover {
+    color: white;
+}
+
+.buttons:hover span {
+   
+    width: 300px;
+    height: 300px;
+}
+
+
+#mw {
+    margin-bottom: 350px;
+    margin-left: -250px;
+}
+#sw {
+    margin-bottom: 350px;
+    
+}
+#p2 {
+    margin-bottom: 350px;
+    
+}
+#m {
+    margin-top: 350px;
+    margin-left: 70px;
+    
+}
+#s {
+    margin-top: 350px;
+   
+}
+#p1 {
+    margin-top: 350px;
+    
+}
+.a {
+    font-size: 100px;
+    margin: 5px;
+   /* box-shadow: 8px 15px 13px 2px #c2c2c2;
+  
+}
+.buttons1 {
+    margin-left: 200px;
+    
+}
+.buttons {
+    margin-left: 100px;
+}
+#win {
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 45px;
+    color: white;
+    display: flex;
+    border: 2px solid var(--border);
+   /* box-shadow: 1px 1px 1px 1px white;
+
+
+
+}*/
+
+
+
+
+
+
